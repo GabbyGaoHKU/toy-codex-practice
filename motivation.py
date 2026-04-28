@@ -7,5 +7,5 @@ messages = [
     "Focus on the next action."
 ]
 
-name = input ("Enter your name:")
-print(random.choice(messages))
+name = input ("Enter your name: ")
+print(f"Hey {name}, {random.choice(messages)}"
