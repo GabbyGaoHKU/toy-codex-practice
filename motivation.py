@@ -7,4 +7,5 @@ messages = [
     "Focus on the next action."
 ]
 
+name = input ("Enter your name:")
 print(random.choice(messages))
